@@ -1,2 +1,2 @@
-# idle_game
+## Idle Game
 Idle clicker game similar to Adventure Capitalist
