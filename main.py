@@ -31,8 +31,16 @@ class Application(ttk.Frame):
 		#self.progbar.grid(column=1, padx=xpad, pady=ypad, row = 0)
 		
 		# Add items containing buttons and progress bars
-		self.item1 = Item(self.root, "No. 1")
-		self.item2 = Item(self.root, "No. 2")
+		self.lemonade 	= Item(self.root, "Lemonade Stand")
+		self.newspaper 	= Item(self.root, "Newspaper")
+		self.carwash 	= Item(self.root, "Car Wash")
+		self.pizza 		= Item(self.root, "Pizza Delivery")
+		self.donut 		= Item(self.root, "Donut Shop")
+		self.shrimp 	= Item(self.root, "Shrimp Boat")
+		self.hockey		= Item(self.root, "Hockey Team")
+		self.movie		= Item(self.root, "Movie Studio")
+		self.bank		= Item(self.root, "Bank")
+		self.oil		= Item(self.root, "Oil Company")
 		
 		# Add label fields
 		
@@ -68,7 +76,7 @@ class Item(ttk.LabelFrame):
 		self.runb.grid(column=0, padx=xpad, pady=ypad, row = Item.count)
 		
 		self.progbar.grid(column=1, padx=xpad, pady=ypad, row = Item.count)
-		print(self.progbar.config())
+		#print(self.progbar.config())
 		
 		Item.count = Item.count + 1
 		
