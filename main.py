@@ -34,13 +34,13 @@ class Application(ttk.Frame):
 		self.lemonade 	= Item(self.root, "Lemonade Stand")
 		self.newspaper 	= Item(self.root, "Newspaper")
 		self.carwash 	= Item(self.root, "Car Wash")
-		self.pizza 		= Item(self.root, "Pizza Delivery")
-		self.donut 		= Item(self.root, "Donut Shop")
+		self.pizza 	= Item(self.root, "Pizza Delivery")
+		self.donut 	= Item(self.root, "Donut Shop")
 		self.shrimp 	= Item(self.root, "Shrimp Boat")
-		self.hockey		= Item(self.root, "Hockey Team")
-		self.movie		= Item(self.root, "Movie Studio")
-		self.bank		= Item(self.root, "Bank")
-		self.oil		= Item(self.root, "Oil Company")
+		self.hockey	= Item(self.root, "Hockey Team")
+		self.movie	= Item(self.root, "Movie Studio")
+		self.bank	= Item(self.root, "Bank")
+		self.oil	= Item(self.root, "Oil Company")
 		
 		# Add label fields
 		
