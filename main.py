@@ -31,12 +31,12 @@ class Application(ttk.Frame):
 		#self.progbar.grid(column=1, padx=xpad, pady=ypad, row = 0)
 		
 		# Add items containing buttons and progress bars
-		self.lemonade 	= Item(self.root, "Lemonade Stand")
-		self.newspaper 	= Item(self.root, "Newspaper")
-		self.carwash 	= Item(self.root, "Car Wash")
-		self.pizza 		= Item(self.root, "Pizza Delivery")
-		self.donut 		= Item(self.root, "Donut Shop")
-		self.shrimp 	= Item(self.root, "Shrimp Boat")
+		self.lemonade	= Item(self.root, "Lemonade Stand")
+		self.newspaper	= Item(self.root, "Newspaper")
+		self.carwash	= Item(self.root, "Car Wash")
+		self.pizza		= Item(self.root, "Pizza Delivery")
+		self.donut		= Item(self.root, "Donut Shop")
+		self.shrimp		= Item(self.root, "Shrimp Boat")
 		self.hockey		= Item(self.root, "Hockey Team")
 		self.movie		= Item(self.root, "Movie Studio")
 		self.bank		= Item(self.root, "Bank")
